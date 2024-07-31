@@ -17,6 +17,7 @@ func main() {
 			fmt.Println("", subArr)
 
 		}
+
 		sort.Ints(subArr)
 		finalArr = append(finalArr, subArr[len(subArr)-1])
 	}
